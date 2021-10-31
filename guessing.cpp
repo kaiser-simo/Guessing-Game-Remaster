@@ -12,12 +12,12 @@ int main(){
 	cout<<"Guessing Game! Guess the right number from 0 to 100 and you win"<<endl;
 	cin >> a;
 	if(a == b){
-		cout<<"da"<<endl;
+		cout<<"You guessed right!"<<endl;
 		return 0;
 	}
 	while(a != b){
 		if(a == b){
-		cout<<"Brawo maika!"<<endl;
+		cout<<"You guessed right!<<endl;
 		return 0;
 	}
 		cout<<"Wrong! Guess again!"<<endl;
@@ -26,7 +26,7 @@ int main(){
 			if(a != b){
 				cout<<"Wrong! Guess again!"<<endl;
 			}else{
-				cout<<"da"<<endl;
+				cout<<"You guessed right!"<<endl;
 				return 0;
 			}
 		}
@@ -42,7 +42,7 @@ int main(){
 					break;
 				}
 			}else{
-				cout<<"da"<<endl;
+				cout<<"You guessed right!"<<endl;
 				return 0;
 			}
 		}
